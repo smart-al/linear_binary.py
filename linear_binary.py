@@ -11,7 +11,7 @@ def linear_search(list, key):
 def binary_search(list, key):
     """Returns the position of key in the list if found, -1 otherwise.
 
-    List must be sorted.
+    List must be sorted using list.sort()
     """
     left = 0
     right = len(list) - 1
